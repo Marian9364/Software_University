@@ -1,2 +1,2 @@
 # Software_University
-Solutions in Python from SoftUni's (Software University) courses.
+Solutions in Python and JavaScript from SoftUni's (Software University) courses.
