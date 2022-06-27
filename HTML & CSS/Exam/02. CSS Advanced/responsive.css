@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+  html {
+    max-width: 600px;
+    margin:0px auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+  }
+  main .left-to-right article {
+    border-radius: 15%;
+    width: 78%;
+    height: unset;
+    padding: 0px 30px;
+  }
+
+  .left-to-right:first-child {
+    height: unset;
+  }
+  main .left-to-right article button {
+    display: none;
+  }
+
+  main section:nth-child(2) {
+    flex-direction: column;
+  }
+
+  main section:nth-child(2) button {
+    display: none;
+  }
+  input#send {
+    margin-left: 120px;
+  }
+
+  main section:nth-child(4) {
+    flex-direction: column;
+  }
+  main section.left-to-right:nth-child(3) {
+    height: unset;
+  }
+
+  form {
+    justify-content: center;
+    align-items: center;
+  }
+  main section:nth-child(4) article img {
+    width: 50%;
+  }
+}
