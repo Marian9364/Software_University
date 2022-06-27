@@ -1,0 +1,183 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  font-family: "PT Sans", sans-serif;
+  width: 1200px;
+  margin: 0px auto;
+}
+.laptop,
+.hustle,
+.hustlecase,
+.notes {
+  width: 50%;
+}
+
+/* whiteboard-section */
+
+.whiteboard-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(./image/computer-main.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.whiteboard-icons-container {
+  padding-top: 20px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  width: 1200px;
+  height: auto;
+}
+
+.whiteboard-icons-container p,
+.whiteboard-icons-container p {
+  display: inline-block;
+}
+
+.whiteboard-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.whiteboard-heading {
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.whiteboard-heading-disc {
+  font-size: 20px;
+  width: 40%;
+  padding-bottom: 70px;
+}
+
+.whiteboard-btn {
+  background-color: #15be89;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #15be89;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.whiteboard-underbtn-container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.whiteboard-underbtn-disc {
+  display: inline-block;
+
+  padding-right: 10px;
+}
+
+.whiteboard-underbtn-btn {
+  background-color: white;
+  border-radius: 50%;
+  border: unset;
+  cursor: pointer;
+}
+
+/* small sections */
+
+.hustle-heading {
+  padding: 10px 40px;
+}
+
+.hustle-heading-disc {
+  padding: 10px 40px;
+}
+
+.hustle-points {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hustle-point {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.hustle-icon {
+  color: #b2f1dd;
+}
+
+.hustle-point-text {
+  display: inline-block;
+}
+
+/* hustlecase section */
+
+.hustlecase-heading {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hustle-case-icon {
+  width: 50px;
+}
+
+.hustlecase-icon-disc {
+  color: #66d5b2;
+  text-align: center;
+}
+
+.hustlecase-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.hustlecase-item {
+  padding: 30px 52px;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-sections-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* footer */
+
+.footer {
+  background-color: #b2f1dd;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-heading {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.footer-question-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-question-list-element {
+  padding: 10px 19px;
+  width: 30%;
+  text-align: center;
+}
+.footer-email-us {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
