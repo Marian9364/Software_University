@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+html {
+  font-family: "Courgette", sans-serif;
+  max-width: 1300px;
+  margin: 300px auto;
+  background-color: black;
+}
+
+/* header */
+
+.header {
+  background-color: #f5f5f5;
+  position: relative;
+  height: 200px;
+}
+.header-heading {
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+}
+
+.header-subtitle {
+  color: #a31d1a;
+  font-size: 36px;
+  letter-spacing: 2px;
+  position: absolute;
+  right: 450px;
+  bottom: 15px;
+}
+
+/* main */
+
+.main {
+  background-color: #f5f5f5;
+}
+
+.elements-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.element-container {
+  width: 30%;
+  padding-bottom: 40px;
+}
+
+.room-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.element-text-container {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.element-heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.element-disc {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  border-top: 2px solid #bd221f;
+  color: #595a5c;
+}
+
+.element-bottom-container {
+  color: #595a5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-bottom: 10px;
+}
+
+.element-bottom-btn {
+  background-color: #bd221f;
+  color: white;
+  border: unset;
+  border-radius: 50%;
+}
+
+
